@@ -37,14 +37,14 @@ async function getData( ) {
     tick.appendChild(name);
 
     var price = document.createElement(  "p");
-    price.innerText= "currently:"
+    price.innerText= `currently:${coins.current_price}$`;
     
     
     tick.appendChild(price);
 
     var current = document.createElement("div");
-    current.innerText= coins.price_change_24h
-;
+    current.innerText= `${coins.price_change_24h}%`;
+
     tick.appendChild(current);
     coin1.appendChild(tick)
 
@@ -56,4 +56,4 @@ async function getData( ) {
     console.error(error.message);
   }
 }
-
+getData();
