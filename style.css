@@ -60,25 +60,22 @@ height: 50%;
     
 }
 .right{
-    width: 25%;
+    width: 60%;
     height: 100%;
    
     
 }
-.left{
-    width: 25%;
-    height: 100%;
-}
+
 
 .tick{
 width: 100%;
 height: 40%;
 background-color:#1e1b38;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 margin-bottom: 9%;
-flex-direction: column;
+
 border-radius: 12px;
 border:2px #00ffe7 solid;
  box-shadow: 0 0 15px #00ffe7;
